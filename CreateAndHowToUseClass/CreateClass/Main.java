@@ -1,4 +1,4 @@
-package Example.CreateClass;
+package Example.CreateAndHowToUseClass.CreateClass;
 
 public class Main {
     public static void main(String[] args) {

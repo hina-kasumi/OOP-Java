@@ -1,0 +1,5 @@
+hàm get trả về dúng cái dữ liệu của chúng ta
+
+hàm set không trả về giá trị nhưng dùng để chỉnh dữ liệu
+
+nhập và in ra Date khi nhập ngày , tháng, năm

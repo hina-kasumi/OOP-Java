@@ -1,4 +1,4 @@
-package Example.CoffeeExample;
+package Example.CreateAndHowToUseClass.CoffeeExample;
 
 public class HoaDonCafe {
     //attributes

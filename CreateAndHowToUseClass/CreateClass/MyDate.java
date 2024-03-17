@@ -1,4 +1,4 @@
-package Example.CreateClass;
+package Example.CreateAndHowToUseClass.CreateClass;
 
 public class MyDate {
     //Create attribute of MyDate Class
