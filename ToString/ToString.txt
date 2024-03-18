@@ -1,0 +1,2 @@
+nếu như không thêm hàm toString vào thì khi in ra mã của đối tượng
+nhưng khi thêm vào sẽ in ra những chuỗi thông tin cơ bản mà bạn muốn in ra.
