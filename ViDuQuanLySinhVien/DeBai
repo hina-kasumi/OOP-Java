@@ -1,0 +1,10 @@
+chương chình hỗ trợ quản lý thông tin sinh viên.
+
+	Sinh viên: mã sinh viên, họ và tên, ngày sinh, điểm trung bình, lớp
+	ngày : ngày tháng năm
+	lớp: tên lớp tên khoa
+
+
+1, cho biết tên khoa sinh viên đang theo học
+2, cho biết học sinh có đậu hay không (điểm trung bình >= 5)
+3, kiểm tra sinh viên có ngày sinh giống với một sinh viên khác không
