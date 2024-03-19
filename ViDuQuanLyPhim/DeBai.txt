@@ -1,0 +1,9 @@
+quản lý phim tại một rạp chiếu phim
+
+    một bộ phim: tên phim, năm sản xuất, hãng sản xuất, giá vé, ngày chiếu.
+        hãng sản xuất: tên sản xuất, quốc gia.
+        ngày chếu: ngày tháng năm.
+
+1, kiểm tra giá vé của một bộ phim bất kì có rẻ hơn giá vé phim khác không
+2, in tên hãng sản xuất
+3, giá vé sau khi có khuyến mãi
