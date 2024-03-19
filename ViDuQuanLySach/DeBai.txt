@@ -1,0 +1,7 @@
+tạo một chương tình quản lý sách
+sach: tên sách, giá, ngày xuất bản, tác giả.
+tác giả: tên, ngày sinh.
+
+1, in tên sách
+2, kiểm tra cùng năm xuất bản không
+3, in ra giá sách sau khi giảm giá
