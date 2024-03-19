@@ -1,0 +1,27 @@
+Được sử dụng để so sánh hai đối tượng xem có bằng nhau hay không.
+Được định nghĩa trong lớp Object và được kế thừa bởi tất cả các lớp trong Java.
+
+các bước làm
+    1, Ghi đè phương thức equals.
+    2, So sánh các thuộc tính của hai đối tượng.
+
+
+giải thích code:
+
+    @Override: Anotation này cho biết phương thức equals được ghi đè từ lớp Object.
+    if (obj == this): So sánh xem hai đối tượng có cùng tham chiếu hay không.
+    if (!(obj instanceof MyClass)): Kiểm tra xem đối tượng được truyền vào có thuộc lớp MyClass hay không.
+    MyClass other = (MyClass) obj;: Chuyển đổi đối tượng obj sang kiểu MyClass.
+    this.name.equals(other.name) && this.age == other.age;: So sánh từng thuộc tính của hai đối tượng.
+
+Hàm equals phải tuân thủ các quy tắc sau:
+
+    Tính phản xạ: a.equals(b) phải trả về true nếu b.equals(a) trả về true.
+    Tính đối xứng: a.equals(b) phải trả về cùng kết quả với b.equals(a).
+    Tính bất biến: Nếu a.equals(b) trả về true, thì a và b phải có cùng giá trị.
+    Tính nhất quán: Nếu a.equals(b) trả về true và b.equals(c) trả về true, thì a.equals(c) phải trả về true.
+    Nên sử dụng phương thức hashCode cùng với equals để tăng hiệu quả so sánh.
+
+tại sao phải ghi đề equals mặc định vì
+
+    mặc định sẽ so sánh cùng tham chiều hay không chứ hông dựa trên giá trị của đối tượng.

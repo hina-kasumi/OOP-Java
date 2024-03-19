@@ -1,0 +1,38 @@
+Mã hashcode là một giá trị số được tính toán dựa trên dữ liệu của một đối tượng.
+Nó được sử dụng để tăng hiệu quả của các thao tác như:
+
+    So sánh hai đối tượng: Thay vì so sánh từng thuộc tính của hai đối tượng, bạn có thể so sánh mã hashcode của chúng.
+        Việc so sánh mã hashcode nhanh hơn so với việc so sánh từng thuộc tính.
+
+    Lưu trữ và truy xuất dữ liệu: Mã hashcode có thể được sử dụng để tạo ra các cấu trúc dữ liệu hiệu quả,
+        chẳng hạn như tập hợp và bản đồ.
+
+Tại sao phải sử dụng mã hashcode?
+
+Sử dụng mã hashcode có thể mang lại một số lợi ích:
+
+    Tăng hiệu quả: So sánh mã hashcode nhanh hơn so với so sánh từng thuộc tính của hai đối tượng.
+
+    Giảm thiểu dung lượng bộ nhớ: Mã hashcode thường nhỏ hơn so với dữ liệu của một đối tượng.
+
+    Tăng khả năng mở rộng: Các cấu trúc dữ liệu dựa trên mã hashcode có thể được mở rộng
+        dễ dàng hơn so với các cấu trúc dữ liệu dựa trên so sánh từng thuộc tính.
+
+Ví dụ
+
+    Giả sử bạn có một danh sách gồm 1 triệu đối tượng. Việc so sánh từng đối tượng trong danh sách này sẽ rất tốn thời gian.
+    Tuy nhiên, nếu bạn sử dụng mã hashcode, bạn có thể so sánh hai đối tượng chỉ bằng cách so sánh mã hashcode của chúng.
+    Việc này sẽ nhanh hơn nhiều.
+
+Lưu ý
+
+    Mã hashcode không phải lúc nào cũng chính xác. Hai đối tượng khác nhau có thể có cùng mã hashcode.
+    Do đó, bạn nên sử dụng mã hashcode cùng với phương thức `equals` để đảm bảo tính chính xác.
+    phải ghi đè hashcode mặc định vì mặc định là địa chỉ của đối tượng. và nó không nhanh bằng so sánh 2 giá trị.
+
+
+Tóm tắt
+
+    Mã hashcode là một giá trị số được tính toán dựa trên dữ liệu của một đối tượng.
+    Sử dụng mã hashcode có thể tăng hiệu quả của các thao tác so sánh, lưu trữ và truy xuất dữ liệu.
+    Mã hashcode không phải lúc nào cũng chính xác, nên sử dụng nó cùng với phương thức `equals` để đảm bảo tính chính xác.
