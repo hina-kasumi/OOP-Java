@@ -1,0 +1,8 @@
+thông tin quản lý mánh tính
+
+    máy tính: Hãng sản xuất, ngày sản xuất, giá bán, thời gian bảo hành theo tháng
+    ngày sản xuất: ngày tháng năm máy tính được lắp
+    hãng sản xuất:tên hãng, quốc gia.
+
+1,một máy tính có giá ít hơn giá máy tính khác hay không
+2, cho biết tên quốc gia sản xuất mt.
