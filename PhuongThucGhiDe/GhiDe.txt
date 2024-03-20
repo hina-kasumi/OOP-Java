@@ -1,0 +1,5 @@
+ghi đè để nhận phương thức của lớp nhưng khong phù hợp nên phải ghi đề
+ghi đề thì phải viết lại tên hàm y hệt của lớp cha.
+còn ghi đè thuộc tính thì giống constructor
+
+với method thì cần @override còn attributes thì không
