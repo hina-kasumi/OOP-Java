@@ -1,0 +1,19 @@
+tạo một lớp phương tiện di chuyển (abstract)
+
+    phuương tiện di chuyển: loại phương tiện, Hãng sản xuất
+        hãng sản xuất: tên hãng sản xuất, quốc gia.
+
+        máy bay: loại nhiên liệu
+            cất cánh
+            hạ cánh
+            lấy vận tốc
+
+        xe ô to: loại nhiên liệu
+            lấy vận tốc
+
+        xe đạp:
+            lấy vận tốc
+
+1, lấy tên sản xuất
+2,bắt đầy, tăng tốc, dừng lại.
+3, lấy vận tốc.
