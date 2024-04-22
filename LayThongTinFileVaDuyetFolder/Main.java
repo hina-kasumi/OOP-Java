@@ -23,19 +23,19 @@ public class Main {
             luaChon = scanner.nextInt();
 
             if(luaChon == 1)
-                System.out.println(file.canExecute());
+                System.out.println(file.canExecute()); // có thể thực thi
             else if(luaChon == 2)
-                System.out.println(file.canRead());
+                System.out.println(file.canRead()); // có thể đọc
             else if(luaChon == 3)
-                System.out.println(file.canWrite());
+                System.out.println(file.canWrite()); //có th viết
             else if(luaChon == 4)
-                System.out.println(file.getAbsolutePath());
+                System.out.println(file.getAbsolutePath()); // in đường dẫn
             else if (luaChon == 5)
-                System.out.println(file.getName());
+                System.out.println(file.getName()); // in tên file
             else if (luaChon == 6) {
-                if (file.isDirectory())
+                if (file.isDirectory()) //nếu đây là folder thì thực thi
                     System.out.println("đây là thư mục.");
-                else if (file.isFile())
+                else if (file.isFile()) // nếu đây là file thực thi
                     System.out.println("đây là file.");
                 else
                     System.out.println("không thể xác định");
@@ -43,9 +43,9 @@ public class Main {
             else if (luaChon == 7){
                 if (file.isDirectory()){
                     System.out.println("danh sách các tập tin con là:");
-                    File[] mangCon = file.listFiles();
+                    File[] mangCon = file.listFiles(); // trả về một mảng gồm các thư mục, file con của folder
                     for (File x: mangCon)
-                        System.out.println(x.getAbsolutePath());
+                        System.out.println(x.getAbsolutePath());//in ra đường đẫn các file và folder con
                 }
                 else
                     System.out.println("đây không phải là folder.");
